@@ -8,6 +8,6 @@ bill_perc = bill * (1 + tip / 100)
 
 calc = bill_perc / num_people
 
-total = (round(calc, 2))
+total = round(calc, 2)
 
 print(f"Each person should pay: ${total}")

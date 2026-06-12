@@ -1,3 +1,5 @@
+"""This script calculates the split bill amount including tips."""
+
 print("Welcome to the tip calculator!")
 
 bill = int(input("What was the total bill? $"))
